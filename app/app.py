@@ -5,9 +5,7 @@ from PIL import Image
 from tensorflow.keras.preprocessing import image
 import tensorflow as tf
 from sklearn.manifold import TSNE
-import pandas as pd
 import matplotlib.pyplot as plt
-import seaborn as sns 
 from tensorflow.keras.applications.resnet_v2 import ResNet152V2
 from tensorflow.keras.layers import Input
 import requests
