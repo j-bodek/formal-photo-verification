@@ -9,6 +9,7 @@ import matplotlib.pyplot as plt
 from tensorflow.keras.applications.resnet_v2 import ResNet152V2
 from tensorflow.keras.layers import Input
 import requests
+import seaborn as sns 
 from io import BytesIO
 
 
@@ -169,8 +170,6 @@ class content_page():
 class one_img_page(content_page):
 
     def __init__(self):
-
-        st.title("Hello World!")
 
         self.file = st.file_uploader('Pick a file', type = ('TIFF','JFIF','JPG','JPEG','PNG'))
 
