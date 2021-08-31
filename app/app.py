@@ -67,12 +67,12 @@ class help_page():
 
         st.write('# Examples of invalid and valid images:')
         col1, col2, col3 = st.columns(3)
-        col1.image('images/valid_1.jpg', caption = 'Valid',  use_column_width=True)
-        col2.image('images/valid_2.jpg', caption = 'Valid', use_column_width=True)
-        col3.image('images/invalid_1.jpg', caption = 'Invalid', use_column_width=True)
-        col1.image('images/invalid_2.jfif', caption = 'Invalid', use_column_width=True)
-        col2.image('images/invalid_3.jfif', caption = 'Invalid', use_column_width=True)
-        col3.image('images/invalid_4.png', caption = 'Invalid', use_column_width=True)
+        col1.image('app/images/valid_1.jpg', caption = 'Valid',  use_column_width=True)
+        col2.image('app/images/valid_2.jpg', caption = 'Valid', use_column_width=True)
+        col3.image('app/images/invalid_1.jpg', caption = 'Invalid', use_column_width=True)
+        col1.image('app/images/invalid_2.jfif', caption = 'Invalid', use_column_width=True)
+        col2.image('app/images/invalid_3.jfif', caption = 'Invalid', use_column_width=True)
+        col3.image('app/images/invalid_4.png', caption = 'Invalid', use_column_width=True)
 
 
 
