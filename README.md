@@ -19,5 +19,5 @@ Invalid images contains:
 - empty rooms photos
 - person with body 
  
-  Invalid images from every subfolder were distributed equally to training,validation and test set to make sure that images in every set came from same distribution.
+Invalid images from every subfolder were distributed equally to training,validation and test set to make sure that images in every set came from same distribution.
   
