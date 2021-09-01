@@ -5,6 +5,7 @@ APP: https://share.streamlit.io/liljack118/formal-photo-verification/app/app.py 
 API: https://formal-photo-verification-api.herokuapp.com/
 
 
+
 ## Data 
 To train network I used dataset of 3500 images in total. <br/>
 Training set - 2800 images ( 1200 positive / 1600 negative) <br/>
@@ -21,4 +22,11 @@ Invalid images contains:
  
 Invalid images from every subfolder were distributed equally to training,validation and test set to make sure that images in every set came from same distribution.
 
-(model/images/1.jpg)
+![](model/images/1.jpg)
+
+![](model/images/2.jpg)
+
+
+
+# Model
+To make predictions i used ResNet50 network with imagenet weights.
