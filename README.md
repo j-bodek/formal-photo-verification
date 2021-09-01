@@ -20,4 +20,5 @@ Invalid images contains:
 - person with body 
  
 Invalid images from every subfolder were distributed equally to training,validation and test set to make sure that images in every set came from same distribution.
-  
+
+(model/images/1.jpg)
