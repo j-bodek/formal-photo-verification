@@ -29,4 +29,14 @@ Invalid images from every subfolder were distributed equally to training,validat
 
 
 # Model
-To make predictions i used ResNet50 network with imagenet weights.
+To make predictions I used ResNet50 network with imagenet weights. Firstly i extracted features (that will be feeded to fully connected layers) of headless model and then visualize them with t-sne to see if they are well seperated. Input size is (224,224,3).
+
+![](model/images/3.jpg)
+![](model/images/4.png)
+
+As we can see ResNet50 with imagenet weights makes good job to separate valid and invalid images. Now let's add fully connected layers to make predictions! I chose to add two instead of one because it performs slightly better. 
+
+![](model/images/5.jpg)
+
+Model performance on test set:
+![](model/images/6.jpg)
