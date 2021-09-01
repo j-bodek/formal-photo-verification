@@ -28,7 +28,7 @@ Invalid images from every subfolder were distributed equally to training,validat
 
 
 
-# Model
+## Model
 To make predictions I used ResNet50 network with imagenet weights. Firstly i extracted features (that will be feeded to fully connected layers) of headless model and then visualize them with t-sne to see if they are well seperated. Input size is (224,224,3).
 
 ![](model/images/3.jpg)
@@ -38,5 +38,11 @@ As we can see ResNet50 with imagenet weights makes good job to separate valid an
 
 ![](model/images/5.jpg)
 
-Model performance on test set:
+Model performance on test set: <br/>
 ![](model/images/6.jpg)
+
+## APP
+To create app i used streamlit library and deployed it on https://share.streamlit.io/. 
+
+## API
+Api was created with fastapi and deployed on heroku.
